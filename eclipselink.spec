@@ -3,7 +3,8 @@
 %global namedversion %{version}%{?reltag}
 Name:          eclipselink
 Version:       2.4.2
-Release:       2.0%{?dist}
+Release:       6.1
+Group:		Development/Java
 Summary:       Eclipse Persistence Services Project
 License:       EPL and BSD
 Url:           http://www.eclipse.org/eclipselink/
@@ -38,14 +39,14 @@ BuildRequires: javamail
 BuildRequires: jboss-connector-1.6-api
 BuildRequires: jboss-transaction-1.1-api
 BuildRequires: jsr-311
-BuildRequires: objectweb-asm
+BuildRequires: objectweb-asm3
 BuildRequires: tomcat-servlet-3.0-api
 BuildRequires: tuscany-sdo-java
 BuildRequires: wsdl4j
 
 Requires:      antlr3-tool
 Requires:      eclipselink-persistence-api
-Requires:      objectweb-asm
+Requires:      objectweb-asm3
 Requires:      tuscany-sdo-java
 
 Requires:      java
@@ -151,10 +152,8 @@ install -pm 644 jpa-pom.xml %{buildroot}%{_mavenpomdir}/JPP.%{name}-org.eclipse.
 mkdir -p %{buildroot}%{_javadocdir}/%{name}
 cp -pr target/api/* %{buildroot}%{_javadocdir}/%{name}
 
-%files
-%{_javadir}/%{name}
-%{_mavenpomdir}/JPP.%{name}-*.pom
-%{_mavendepmapfragdir}/%{name}
+%files -f .mfiles
+%dir %{_javadir}/%{name}
 %doc about.html license.html readme.html
 
 %files javadoc

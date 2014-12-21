@@ -27,11 +27,11 @@
     <fileset dir="/usr/share/java" includes="jboss-transaction-1.1-api.jar"/>
     <fileset dir="/usr/share/java" includes="geronimo-validation.jar"/>
     <fileset dir="/usr/share/java" includes="javamail/mail.jar"/>
-    <fileset dir="/usr/share/java" includes="objectweb-asm/asm.jar"/>
-    <fileset dir="/usr/share/java" includes="objectweb-asm/asm-commons.jar"/>
-    <fileset dir="/usr/share/java" includes="objectweb-asm/asm-tree.jar"/>
-    <fileset dir="/usr/share/java" includes="objectweb-asm/asm-util.jar"/>
-    <fileset dir="/usr/share/java" includes="objectweb-asm/asm-xml.jar"/>
+    <fileset dir="/usr/share/java" includes="objectweb-asm3/asm.jar"/>
+    <fileset dir="/usr/share/java" includes="objectweb-asm3/asm-commons.jar"/>
+    <fileset dir="/usr/share/java" includes="objectweb-asm3/asm-tree.jar"/>
+    <fileset dir="/usr/share/java" includes="objectweb-asm3/asm-util.jar"/>
+    <fileset dir="/usr/share/java" includes="objectweb-asm3/asm-xml.jar"/>
     <fileset dir="/usr/share/java" includes="tuscany-sdo-api.jar"/>
     <fileset dir="/usr/share/java" includes="tomcat-servlet-api.jar"/>
     <fileset dir="/usr/share/java" includes="qname.jar"/>
