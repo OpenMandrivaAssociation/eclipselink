@@ -3,7 +3,7 @@
 %global namedversion %{version}%{?reltag}
 Name:          eclipselink
 Version:       2.4.2
-Release:       6.1
+Release:       6.2
 Group:		Development/Java
 Summary:       Eclipse Persistence Services Project
 License:       EPL and BSD
@@ -103,7 +103,7 @@ cp -p %{SOURCE4} core-pom.xml
 %pom_add_dep asm:asm-util:3.3.1:compile core-pom.xml
 %pom_add_dep asm:asm-xml:3.3.1:compile core-pom.xml
 
-cp -p %{SOURCE4} jpa-pom.xml
+cp -p %{SOURCE5} jpa-pom.xml
 %pom_remove_dep org.eclipse.persistence: jpa-pom.xml
 %pom_add_dep org.eclipse.persistence:javax.persistence:2.0.5:compile
 %pom_add_dep org.antlr:antlr-runtime:3.2:compile jpa-pom.xml
