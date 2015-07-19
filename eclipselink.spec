@@ -3,7 +3,7 @@
 %global namedversion %{version}%{?reltag}
 Name:          eclipselink
 Version:       2.4.2
-Release:       6.2
+Release:       6.3
 Group:		Development/Java
 Summary:       Eclipse Persistence Services Project
 License:       EPL and BSD
