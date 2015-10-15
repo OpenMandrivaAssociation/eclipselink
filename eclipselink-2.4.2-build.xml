@@ -23,7 +23,7 @@
     <fileset dir="/usr/share/java" includes="geronimo-jms.jar"/>
     <!--fileset dir="/usr/share/java" includes="hibernate-jpa-2.0-api.jar"/-->
     <fileset dir="/usr/share/java" includes="eclipselink-persistence-api.jar"/>
-    <fileset dir="/usr/share/java" includes="jboss-connector-1.6-api.jar"/>
+    <fileset dir="/usr/share/java" includes="jboss-connector-1.6-api/jboss-connector-api_1.6_spec.jar"/>
     <fileset dir="/usr/share/java" includes="jboss-transaction-1.1-api.jar"/>
     <fileset dir="/usr/share/java" includes="geronimo-validation.jar"/>
     <fileset dir="/usr/share/java" includes="javamail/mail.jar"/>
