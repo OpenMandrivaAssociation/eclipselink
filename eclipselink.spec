@@ -7,7 +7,7 @@ Release:       6.6
 Group:		Development/Java
 Summary:       Eclipse Persistence Services Project
 License:       EPL and BSD
-Url:           http://www.eclipse.org/eclipselink/
+Url:           https://www.eclipse.org/eclipselink/
 Source0:       http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/rt/%{name}/releases/%{version}/%{name}-src-%{namedversion}.zip
 Source1:       %{name}-2.4.2-build.properties
 Source2:       %{name}-2.4.2-build.xml
